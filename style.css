@@ -1,10 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 .logo {
     width: 35%;
 }
 
-#menu-item li{
-    margin:0 15px;
+#menu-item li {
+    margin: 0 15px;
 }
+
 #menu-item li a {
     color: var(--Dark-02, #444);
     text-align: center;
@@ -15,18 +25,113 @@
     line-height: normal;
     font-weight: bold;
 }
-#menu-icon{
+
+/* banner section start */
+.banner {
+    background-image: url('/img/bannar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 580px;
 
 }
 
+.banner-text h1 {
+    color: var(--White-Color, #FFF);
+    /* font-family: Inter; */
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+}
 
+.banner-text p {
+    color: var(--White-Color, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    text-transform: capitalize;
+}
+
+.banner-errow i {
+    border-radius: 50%;
+    background: rgba(255, 0, 0, 0.521);
+    padding: 2%;
+    color: white;
+    font-size: 22px;
+}
+
+.banner-top {
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+/* banner section end */
+/* About section start */
+.about1 {
+    width: 460px;
+    height: 473px;
+}
+
+.about2 {
+    width: 327px;
+    height: 332px;
+    margin-top: -47%;
+    margin-left: 40%;
+}
+
+.about-section {
+    padding: 7% 0;
+}
+
+.about-text h3 {
+    color: var(--ff-3811, #FF3811);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-text h1 {
+    color: var(--Dark-01, #151515);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-text p {
+    color: var(--Dark-03, #737373);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.about-text button {
+    border-radius: 5px;
+    background: var(--ff-3811, #FF3811);
+    color: var(--White-Color, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* About section end */
+/* Responsive */
 @media screen and (max-width: 992px) {
     #menu-icon {
-        flex-direction:column;
+        flex-direction: column;
         text-align: center;
     }
-    #menu-btn{
+
+    #menu-btn {
         width: 25%;
-        margin:auto;
+        margin: auto;
     }
 }
