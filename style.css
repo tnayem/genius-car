@@ -169,6 +169,35 @@ body {
 }
 
 /* Service section end */
+
+/* Information section start */
+.info-section {
+    border-radius: 10px;
+    background: var(--Dark-01, #151515);
+    height: 250px;
+}
+
+.info-section p {
+    color: var(--White-Color, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info-section h6 {
+    color: var(--White-Color, #FFF);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.info-section img{
+    width: 40px;
+    height: 40px;
+}
+
+/* Information section end */
 /* Responsive */
 @media screen and (max-width: 992px) {
     #menu-icon {
