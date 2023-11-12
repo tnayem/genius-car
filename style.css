@@ -1,0 +1,32 @@
+.logo {
+    width: 35%;
+}
+
+#menu-item li{
+    margin:0 15px;
+}
+#menu-item li a {
+    color: var(--Dark-02, #444);
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-weight: bold;
+}
+#menu-icon{
+
+}
+
+
+@media screen and (max-width: 992px) {
+    #menu-icon {
+        flex-direction:column;
+        text-align: center;
+    }
+    #menu-btn{
+        width: 25%;
+        margin:auto;
+    }
+}
