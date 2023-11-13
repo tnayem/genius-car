@@ -248,34 +248,95 @@ body {
 }
 
 /* Popular products section end */
+/* Our team section start */
+.team-info h4 {
+    color: var(--ff-3811, #FF3811);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.team-info h2 {
+    color: var(--Dark-01, #151515);
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.team-info p {
+    color: var(--Dark-03, #737373);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    text-transform: capitalize;
+}
+
+.team-info-details h3 {
+    color: var(--Dark-02, #444);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.team-info-details h4 {
+    color: var(--Dark-03, #737373);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.team-info-details p i{
+    font-size: 36px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/* Our team section end */
 /* Responsive */
 @media screen and (max-width: 992px) {
     #menu-icon {
         flex-direction: column;
         text-align: center;
     }
+
     #menu-btn {
         margin: auto;
     }
-    .banner-top{
+
+    .banner-top {
         margin-left: 0;
         text-align: center;
-        padding-top:0px;
+        padding-top: 0px;
     }
-    .banner-text h1{
+
+    .banner-text h1 {
         font-size: 40px;
     }
-    .banner-errow{
+
+    .banner-errow {
         justify-content: center;
-        margin-top:30px;
+        margin-top: 30px;
     }
-    .about-area{
+
+    .about-area {
         flex-direction: column;
     }
-    .info-content{
+
+    .info-content {
         flex-direction: column;
     }
-    .info-section{
+
+    .info-section {
         min-height: 250px;
     }
 }
