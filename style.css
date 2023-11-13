@@ -29,6 +29,7 @@ body {
 /* banner section start */
 .banner {
     background-image: url('/img/bannar.png');
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -72,12 +73,12 @@ body {
 /* banner section end */
 /* About section start */
 .about1 {
-    width: 460px;
+    width: 80%;
     height: 473px;
 }
 
 .about2 {
-    width: 327px;
+    width: 60%;
     height: 332px;
     margin-top: -47%;
     margin-left: 40%;
@@ -192,21 +193,89 @@ body {
     font-weight: 700;
     line-height: normal;
 }
-.info-section img{
+
+.info-section img {
     width: 40px;
     height: 40px;
 }
 
 /* Information section end */
+/* Popular products section start */
+.products h3 {
+    color: var(--ff-3811, #FF3811);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.products h2 {
+    color: var(--Dark-01, #151515);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.products p {
+    color: var(--Dark-03, #737373);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    text-transform: capitalize;
+}
+
+.review-icon i {
+    color: #FF912C;
+}
+
+.card-text h3 {
+    color: var(--Dark-02, #444);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-text h4 {
+    color: var(--ff-3811, #FF3811);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Popular products section end */
 /* Responsive */
 @media screen and (max-width: 992px) {
     #menu-icon {
         flex-direction: column;
         text-align: center;
     }
-
     #menu-btn {
-        width: 25%;
         margin: auto;
+    }
+    .banner-top{
+        margin-left: 0;
+        text-align: center;
+        padding-top:0px;
+    }
+    .banner-text h1{
+        font-size: 40px;
+    }
+    .banner-errow{
+        justify-content: center;
+        margin-top:30px;
+    }
+    .about-area{
+        flex-direction: column;
+    }
+    .info-content{
+        flex-direction: column;
+    }
+    .info-section{
+        min-height: 250px;
     }
 }
