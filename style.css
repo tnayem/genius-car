@@ -470,4 +470,14 @@ body {
     .customer-details-section{
         width: 100%;
     }
+    .footer-section{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .footer-full-section{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
 }
